@@ -1,0 +1,106 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1440px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px)
+	/**/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+
+	.media-wrap
+		margin-bottom: 40px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 336px)
+	/**/
+	.s-expectation
+		.paginarion
+			display: block
+	.title-merid-wrap
+		margin: 20px
+	.main-head
+		.main-head-photo
+			border-radius: 1000px
+			max-width: 144px
+			max-height: 144px
+			display: block
+			margin: 0 auto
+
+
+/*==========  Mobile First  ==========*/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 336px)
+	/**/
+	.s-portfolio
+		.exp-element
+			display: none
+	.portfolio
+		&-gallery
+			min-height: 400px
+			div:not(.slide-1)
+				display: none
+	.media-wrap
+		.title-merid-wrap
+			display: none
+	.main-head
+		h3
+			left: 25%
+			position: relative
+		p
+			position: relative
+			left: 8%
+		h1
+			position: relative
+			left: 20%
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+	.s-expectation
+		.pagination
+			display: none
+	.main-head
+		h3
+			left: 50%
+			position: relative
+		p
+			position: relative
+			left: -20%
+		h1
+			position: relative
+			left: 70%
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1024px)
+	/**/
+	.media-wrap
+		.title-merid-wrap
+			display: block
+	.main-head
+		h3
+			width: 700px
+			position: relative
+			left: 90%
+		p
+			width: 700px
+			position: relative
+			left: -20%
+		h1
+			width: 700px
+			position: relative
+			left: 70%	
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1440px)
+	/**/
